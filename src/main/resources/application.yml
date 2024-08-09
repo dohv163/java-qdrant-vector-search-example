@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: test-search
+#  ai:
+#    vectorstore:
+#      qdrant:
+#        host: localhost
+#        port: 6334
+
+
+qdrant:
+  host: localhost
+  port: 6334
+server:
+  port: 8088
